@@ -7,8 +7,10 @@ import Services from './pages/services/Services.jsx'
 import Privacy from './pages/privacy/Privacy.jsx'
 import Terms from './pages/terms/Terms.jsx'
 import Consultancy from './pages/consultancy/Consultancy.jsx'
+import RssPage from "./pages/rssPage/RssPage";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
+import News from './pages/news/News.jsx'
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
             <Route path="/consultancy" element={<Consultancy />}/>
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path= "/news" element={<News/>}/>
+            <Route path="/rss" element={<RssPage />} />
           </Routes>
         </main>
         <Footer />

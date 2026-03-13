@@ -42,6 +42,11 @@ function Footer() {
                             <img src="/github.png" alt="GitHub" />
                         </a>
                     </div>
+                    <div className="social-item">
+                        <a href="rss/kacper-news.xml" target="_blank" rel="noreferrer">
+                            <img src="/rss.png" alt="rss" />
+                        </a>
+                    </div>
                 </div>
 
 
@@ -64,8 +69,8 @@ function Footer() {
 
             {/* TU FOOTER ORIGINAL */}
             <div className="footer-legal">
-                © 2026 PicturesKacper. Todos los derechos reservados. 
-                <a href="/privacy"> Política de Privacidad y Cookies</a> 
+                © 2026 PicturesKacper. Todos los derechos reservados.
+                <a href="/privacy"> Política de Privacidad y Cookies</a>
                 |
                 <a href="/terms"> Condiciones de Venta</a>
             </div>
