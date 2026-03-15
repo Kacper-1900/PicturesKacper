@@ -1,0 +1,17 @@
+.rss-row{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.rss-box{
+    background:black;
+    color:white;
+    padding:10px 20px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.rss-box:hover{
+    background:#222;
+}

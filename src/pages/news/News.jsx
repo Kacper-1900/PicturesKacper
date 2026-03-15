@@ -1,5 +1,6 @@
 import Newsitem from "../../components/news-item/Newsitem";
-import news from "../../data/news";
+import news from "../../data/news.js";
+import "./News.css"
 
 function News() {
     return (

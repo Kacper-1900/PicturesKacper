@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:media="http://search.yahoo.com/mrss/">
+
   <channel>
-    <title>Kacper Photography</title>
-    <description>Sigue en la actualidad todas las noticias de nuestro grupo de fotografos y todas nuestras novedades.</description>
+
+    <title>PicturesKacper - Noticias</title>
+    <description>Sigue todas las novedades del grupo PicturesKacper.</description>
     <language>es-es</language>
-    <link></link>
-    <atom:link href="https://tu-app.web.app/rss.xml" rel="self" type="application/rss+xml"/>
+
+    <link>https://tu-app.web.app</link>
+
+    <atom:link href="https://tu-app.web.app/rss/kacper-news.xml" rel="self" type="application/rss+xml"/>
 
     <item>
-      <title>Fotografía Urbana - Serie Madrid</title>
-      <link>https://tu-app.web.app/fotos/1</link>
-      <description>Nueva serie de fotografía urbana captando la esencia de Madrid al amanecer.</description>
-      <pubDate>Mon, 10 Mar 2025 08:00:00 GMT</pubDate>
+      <title>Nueva galería de fotografía urbana en PicturesKacper</title>
+      <link>https://tu-app.web.app/noticias/1</link>
+      <description>Hemos publicado una nueva colección de fotografías urbanas capturadas al atardecer. Luces de ciudad, reflejos y momentos espontáneos protagonizan esta serie.</description>
+      <guid>https://tu-app.web.app/noticias/1</guid>
+      <media:content url="https://tu-app.web.app/urban-gallery.png" medium="image"/>
     </item>
 
     <item>
-      <title>Retrato Natural - Colección Primavera</title>
-      <link>https://tu-app.web.app/fotos/2</link>
-      <description>Retratos naturales con luz natural en exteriores durante la primavera.</description>
-      <pubDate>Wed, 05 Mar 2025 10:00:00 GMT</pubDate>
-      <guid>https://tu-app.web.app/fotos/2</guid>
+      <title>PicturesKacper estrena sección de fotografía de naturaleza</title>
+      <link>https://tu-app.web.app/noticias/2</link>
+      <description>Explora paisajes increíbles, bosques y montañas capturados durante nuestros últimos viajes fotográficos. Una colección pensada para amantes de la naturaleza.</description>
+      <guid>https://tu-app.web.app/noticias/2</guid>
+      <media:content url="https://tu-app.web.app/nature-collection.png" medium="image"/>
     </item>
 
     <item>
-      <title>Paisajes de Montaña - Pirineos</title>
-      <link>https://tu-app.web.app/fotos/3</link>
-      <description>Expedición fotográfica por los Pirineos capturando paisajes nevados.</description>
-      <pubDate>Fri, 28 Feb 2025 09:00:00 GMT</pubDate>
-      <guid>https://tu-app.web.app/fotos/3</guid>
+      <title>Consejos de composición fotográfica en PicturesKacper</title>
+      <link>https://tu-app.web.app/noticias/3</link>
+      <description>En nuestro nuevo artículo explicamos reglas básicas de composición como la regla de los tercios, líneas guía y equilibrio visual para mejorar tus fotografías.</description>
+      <guid>https://tu-app.web.app/noticias/3</guid>
+      <media:content url="https://tu-app.web.app/composition-tips.png" medium="image"/>
     </item>
 
-    <item>
-      <title>Fotografía Nocturna - Larga Exposición</title>
-      <link>https://tu-app.web.app/fotos/4</link>
-      <description>Técnicas de larga exposición para capturar el movimiento de las estrellas.</description>
-      <pubDate>Mon, 24 Feb 2025 22:00:00 GMT</pubDate>
-      <guid>https://tu-app.web.app/fotos/4</guid>
-    </item>
   </channel>
+
 </rss>

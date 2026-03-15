@@ -15,7 +15,7 @@ function Newsitem(props) {
             <p>{props.description}</p>
 
             <p className="news-date">{props.date}</p>
-
+            
         </div>
     )
 }
