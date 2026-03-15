@@ -9,32 +9,29 @@
     <description>Sigue todas las novedades del grupo PicturesKacper.</description>
     <language>es-es</language>
 
-    <link>http://localhost:5173/news</link>
+    <link>https://pictureskacper.web.app/news</link>
 
-    <atom:link href="https://tu-app.web.app/rss/kacper-news.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://pictureskacper.web.app/rss/kacper-news.xml" rel="self" type="application/rss+xml"/>
 
     <item>
       <title>Nueva galería de fotografía urbana en PicturesKacper</title>
-      <link>https://tu-app.web.app/noticias/1</link>
+      <link>https://pictureskacper.web.app/news/1</link>
       <description>Hemos publicado una nueva colección de fotografías urbanas capturadas al atardecer. Luces de ciudad, reflejos y momentos espontáneos protagonizan esta serie.</description>
-      <guid>https://tu-app.web.app/noticias/1</guid>
-      <media:content url="https://tu-app.web.app/urban-gallery.png" medium="image"/>
+      <guid>https://pictureskacper.web.app/news/1</guid>
     </item>
 
     <item>
       <title>PicturesKacper estrena sección de fotografía de naturaleza</title>
-      <link>https://tu-app.web.app/noticias/2</link>
+      <link>https://pictureskacper.web.app/news/2</link>
       <description>Explora paisajes increíbles, bosques y montañas capturados durante nuestros últimos viajes fotográficos. Una colección pensada para amantes de la naturaleza.</description>
-      <guid>https://tu-app.web.app/noticias/2</guid>
-      <media:content url="https://tu-app.web.app/nature-collection.png" medium="image"/>
+      <guid>https://pictureskacper.web.app/news/2</guid>
     </item>
 
     <item>
       <title>Consejos de composición fotográfica en PicturesKacper</title>
-      <link>https://tu-app.web.app/noticias/3</link>
+      <link>https://pictureskacper.web.app/news/3</link>
       <description>En nuestro nuevo artículo explicamos reglas básicas de composición como la regla de los tercios, líneas guía y equilibrio visual para mejorar tus fotografías.</description>
-      <guid>https://tu-app.web.app/noticias/3</guid>
-      <media:content url="https://tu-app.web.app/composition-tips.png" medium="image"/>
+      <guid>https://pictureskacper.web.app/news/3</guid>
     </item>
 
   </channel>
