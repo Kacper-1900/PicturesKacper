@@ -6,7 +6,7 @@ function News() {
         <div>
             {
                 news.map((item, index) => {
-                    return <Newsitem key={index} newsId={index} title={item.title} description={item.description} />
+                    return <Newsitem key={index} newsId={index} title={item.title} image={item.image} description={item.description} date={item.date}/>
                 })
             }
 
