@@ -9,7 +9,7 @@
     <description>Sigue todas las novedades del grupo PicturesKacper.</description>
     <language>es-es</language>
 
-    <link>https://tu-app.web.app</link>
+    <link>http://localhost:5173/news</link>
 
     <atom:link href="https://tu-app.web.app/rss/kacper-news.xml" rel="self" type="application/rss+xml"/>
 

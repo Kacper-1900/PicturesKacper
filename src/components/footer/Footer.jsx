@@ -6,10 +6,8 @@ function Footer() {
     return (
         <footer className="footer">
 
-            {/* NUEVA ZONA SUPERIOR */}
             <div className="footer-top">
 
-                {/* EMPRESA */}
                 <div className="footer-company">
                     <h3>Empresa</h3>
                     <p>Eventos</p>
@@ -43,7 +41,7 @@ function Footer() {
                         </a>
                     </div>
                     <div className="social-item">
-                        <a href="rss/kacper-news.xml" target="_blank" rel="noreferrer">
+                        <a href="/rss" target="_blank" rel="noreferrer">
                             <img src="/rss.png" alt="rss" />
                         </a>
                     </div>
